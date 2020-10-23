@@ -31,7 +31,7 @@ const randomNameURL = "https://api.namefake.com/"
 const randomJokeURL = "http://api.icndb.com/jokes/random?firstName=John&lastName=Doe&limitTo=[nerdy]"
 
 func main() {
-	port := 8080
+	port := 5000
 	fmt.Println("Joking Randomly >> starting...")
 
 	http.HandleFunc("/", jokingRandomlyHandler)
