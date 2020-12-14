@@ -1,6 +1,6 @@
 # Joking Randomly
 
-A random joke generator, written in Go..
+A random joke generator, written in Go.
 
 
 ---
